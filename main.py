@@ -1,2 +1,3 @@
 name = "Twiggy"
-print(name)
+leaves = 0
+print("Leaves:", leaves)
