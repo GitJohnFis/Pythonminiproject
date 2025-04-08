@@ -1,5 +1,15 @@
 name = "Twiggy"
 leaves = 0
+weather = '☀️' #create the weather in Twiggy's simulated world
+print(weather)
+daily_weather = ['☀️','☁️','☀️'] # set up the weather forcast for 3 days
+print(daily_weather)
+for day in daily_weather: # go through every day in the forecast
+ if day == '☀️':
+  light = 2
+ else:
+  light = 1
+ print(light, end = " ")
 light = 1
 cover = 1
 wind = 10
