@@ -9,7 +9,13 @@ for day in daily_weather: # go through every day in the forecast
   light = 2
  else:
   light = 1
+  leaves += light + water # Grow Twiggy with light and water so he gets the benefit of both.
  print(light, end = " ")
+ for day in daily_weather:
+  if day == '☀️':
+   tank = tank + 5 # increase the tank level by five when it's sunny
+   print("tank level:", tank)
+   print('Gotta drink a lot of water!')
 light = 1
 cover = 1
 wind = 10
